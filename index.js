@@ -47,14 +47,15 @@ app.use((error, req, res, next) => {
         pageTitle: 'Error de Validación',
         PagetoLoad: '500',
         SocialLinks: {
-            Facebook: "https://www.facebook.com/",
-            Twitter: "https://twitter.com/",
-            WhatsApp: "https://api.whatsapp.com/send?phone=593",
-            Phone: "tel:+99999999999",
-            Instagram: "https://www.instagram.com/",
-            Youtube: "https://www.youtube.com/",
-            Email: "mailto:@",
-            Copyright: "https://Sites.MarBust.com"
+          Facebook: "https://www.facebook.com/",
+          Twitter: "https://twitter.com/",
+          WhatsApp: "https://api.whatsapp.com/send?phone=593999769892",
+          Phone: "tel:+593999769892",
+          Instagram: "https://www.instagram.com/",
+          Youtube: "https://www.youtube.com/",
+          Email: "mailto:contacto@proecu.xyz",
+          Copyright: "https://Sites.MarBust.com",
+          Map: "https://goo.gl/maps/kwHnsvo24aJAEf29A"
         }
     });
   });
