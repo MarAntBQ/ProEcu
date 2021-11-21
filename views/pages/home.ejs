@@ -1,1 +1,141 @@
-<h1>Home!!</h1>
+<div class="home-banner flex-s-a flex-vc">
+    <div class="banner-content box-7 box-i-8 box-m-10 box-p-12">
+        <p></p>
+        <p class="title fs100px fs-i-80px fs-m-60px fs-p-40px">PROECU</p>
+        <p class="about">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis consectetur nisi cum aliquid
+            in magnam, delectus libero rem veniam neque!</p>
+        <div class="links-btns">
+            <a href="/#products">Productos</a>
+            <a href="/#contact">Contactar</a>
+        </div>
+    </div>
+</div>
+<div class="page-section" id="about">
+    <h1 class="fs40px tac">¿Quiénes Somos?</h1>
+    <br>
+    <div class="flex-s-a flex-vc">
+        <div class="box-5 box-i-5 box-m-8 box-p-10" data-aos="flip-left" data-aos-duration="800">
+            <div class="w100p mauto">
+                <img src="/img/header/logo.png" alt="Full Logo" class="dblock mauto w100p">
+            </div>
+        </div>
+        <div class="box-7 box-i-7 box-m-12" data-aos="flip-right" data-aos-duration="800">
+            <p class="fs18px lh2em taj">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Explicabo facilis
+                pariatur delectus, sapiente quos placeat asperiores! Obcaecati error ex iure.</p>
+            <p class="fs18px lh2em taj">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Explicabo facilis
+                pariatur delectus, sapiente quos placeat asperiores! Obcaecati error ex iure.</p>
+        </div>
+    </div>
+</div>
+<div class="page-section" id="products">
+    <h1 class="fs40px tac">Nuestros Productos</h1>
+    <br>
+    <p class="fs18px lh2em taj">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati, numquam? Tempore
+        deleniti esse suscipit tempora reiciendis, quidem perspiciatis tenetur! Rem.</p>
+    <!-- Swiper -->
+    <div class="swiper mySwiper mt30px">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <img src="/img/products/p1.jpeg" alt="Customer Logo" class="dblock mauto w100p">
+            </div>
+            <div class="swiper-slide">
+                <img src="/img/products/p2.jpeg" alt="Customer Logo" class="dblock mauto w100p">
+            </div>
+            <div class="swiper-slide">
+                <img src="/img/products/p3.jpeg" alt="Customer Logo" class="dblock mauto w100p">
+            </div>
+            <div class="swiper-slide">
+                <img src="/img/products/p4.jpeg" alt="Customer Logo" class="dblock mauto w100p">
+            </div>
+            <div class="swiper-slide">
+                <img src="/img/products/p5.jpeg" alt="Customer Logo" class="dblock mauto w100p">
+            </div>
+            <div class="swiper-slide">
+                <img src="/img/products/p6.jpeg" alt="Customer Logo" class="dblock mauto w100p">
+            </div>
+            <div class="swiper-slide">
+                <img src="/img/products/p7.jpeg" alt="Customer Logo" class="dblock mauto w100p">
+            </div>
+            <div class="swiper-slide">
+                <img src="/img/products/p8.jpeg" alt="Customer Logo" class="dblock mauto w100p">
+            </div>
+        </div>
+        <div class="swiper-pagination"></div>
+    </div>
+
+    <!-- Swiper JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            loop: true,
+            slidesPerView: 1.5,
+            spaceBetweenSlides: 10,
+            breakpoints: {
+                470: {
+                    slidesPerView: 1.8,
+                    spaceBetweenSlides: 15
+                },
+                550: {
+                    slidesPerView: 2,
+                    spaceBetweenSlides: 15
+                },
+                750: {
+                    slidesPerView: 3,
+                    spaceBetweenSlides: 20
+                },
+                870: {
+                    slidesPerView: 3.5,
+                    spaceBetweenSlides: 20
+                },
+                1100: {
+                    slidesPerView: 4,
+                    spaceBetweenSlides: 25
+                },
+                1280: {
+                    slidesPerView: 4.5,
+                    spaceBetweenSlides: 30
+                }
+            },
+            spaceBetween: 30,
+            autoplay: {
+                delay: 1500,
+                disableOnInteraction: false,
+            },
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+        });
+    </script>
+</div>
+<div id="contact">
+    <div class="top">
+        <h1 class="fs40px tac">Contáctanos</h1>
+    </div>
+    <div class="body">
+        <div class="flex-s-a flex-vc">
+            <a class="contact-box box-4 box-i-6 box-m-9 box-p-12" href="<%= SocialLinks.Email %>">
+                <img src="/img/contact/mail.png" alt="Contact Icon" class="contact-img">
+                <h2>Email</h2>
+                <p>Escríbenos a nuestro Email de Soporte para brindarte la mejor solución.</p>
+                <span class="btn">Escríbenos</span>
+            </a>
+            <a class="contact-box box-4 box-i-6 box-m-9 box-p-12" href="<%= SocialLinks.Phone %>">
+                <img src="/img/contact/phone.png" alt="Contact Icon" class="contact-img">
+                <h2>Teléfono</h2>
+                <p>Llámanos a nuestro Teléfono de Soporte para brindarte la mejor solución.</p>
+                <span class="btn">Llámanos</span>
+            </a>
+            <a class="contact-box box-4 box-i-6 box-m-9 box-p-12" href="<%= SocialLinks.Map %>"
+                target="_blank">
+                <img src="/img/contact/map.png" alt="Contact Icon" class="contact-img">
+                <h2>Dirección</h2>
+                <p>Sauces 8 Mz 477 Villa 5<br><strong>Guayaquil - Ecuador</strong></p>
+                <span class="btn">Visítanos</span>
+            </a>
+        </div>
+    </div>
+
+</div>

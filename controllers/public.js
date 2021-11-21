@@ -1,12 +1,13 @@
 const socialLinks = {
     Facebook: "https://www.facebook.com/",
     Twitter: "https://twitter.com/",
-    WhatsApp: "https://api.whatsapp.com/send?phone=593",
-    Phone: "tel:+99999999999",
+    WhatsApp: "https://api.whatsapp.com/send?phone=593999769892",
+    Phone: "tel:+593999769892",
     Instagram: "https://www.instagram.com/",
     Youtube: "https://www.youtube.com/",
-    Email: "mailto:@",
-    Copyright: "https://Sites.MarBust.com"
+    Email: "mailto:contacto@proecu.xyz",
+    Copyright: "https://Sites.MarBust.com",
+    Map: "https://goo.gl/maps/kwHnsvo24aJAEf29A"
 }
 
 //Validator of Inputs

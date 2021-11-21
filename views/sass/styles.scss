@@ -1,1 +1,11 @@
 @import 'marbust-framework/marbust-framework';
+
+$color1: #4F772D;
+$color2: #90A955;
+
+@import 'partials/layout';
+@import 'partials/fonts';
+@import 'partials/header';
+@import 'partials/main';
+@import 'partials/new-test';
+@import 'partials/footer';
