@@ -47,7 +47,7 @@ app.use((error, req, res, next) => {
         pageTitle: 'Error de Validación',
         PagetoLoad: '500',
         SocialLinks: {
-          Facebook: "https://www.facebook.com/",
+          Facebook: "https://www.facebook.com/ProEcu-100294415828312/",
           Twitter: "https://twitter.com/",
           WhatsApp: "https://api.whatsapp.com/send?phone=593999769892",
           Phone: "tel:+593999769892",

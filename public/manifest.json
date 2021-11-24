@@ -1,9 +1,9 @@
 {
     "name": "ProEcu",
     "short_name": "ProEcu",
-    "description": "",
+    "description": "Somos una pequeña empresa de conservas de frutas, tenemos concentrados de durazno, mango, frutilla y mora para las empresas que se dedican a elaborar yogurt. Y nuestro dulce de higo es el favorito para repostería.",
     "background_color": "#ffffff",
-    "theme_color": "#388DCE",
+    "theme_color": "#4F772D",
     "orientation": "portrait",
     "display": "standalone",
     "start_url": "/",
